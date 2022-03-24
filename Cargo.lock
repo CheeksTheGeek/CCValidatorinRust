@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "CCValidator"
+name = "CC_Validator"
 version = "0.1.0"

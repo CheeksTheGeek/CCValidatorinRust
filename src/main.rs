@@ -8,7 +8,7 @@ fn luhn_algorithm(){
     std::io::stdin().read_line(&mut card_number).expect("Failed to read line");
     let card_number: u32 = card_number.trim().parse().expect("Please type a number!");
     let mut sum = 0;
-    let mut digit = 0;
+    let mut digit;
     let mut double = false;
     for i in card_number.to_string().chars().rev() {
         digit = i.to_digit(10).unwrap();
